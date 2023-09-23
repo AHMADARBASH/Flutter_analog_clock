@@ -1,5 +1,6 @@
 // ignore_for_file: must_be_immutable
 
+import 'package:analog_clock/new_clock.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'dart:math';
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Clock(),
+      home: NewClock(),
     );
   }
 }
